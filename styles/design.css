@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.opensans{
+    font-family: "Open Sans", serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+span{
+    color:#FD6E0A;
+    margin-left:300px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p .name{
+    width: 520px;
+    height: 90px;
+    background-color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font 25px;
+    color: black;
+}
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+}
+.banner-content{
+    width: 585px;
+    height: 330px;
+
+}
+.name{
+    font-size: 85px;
+}
+.des{
+    font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 0px 300px;
+}
+.profile{
+width: 584px;
+height: 676px;
+}
+header{
+
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.bg-color{
+    background-color: #FFF8F3;
+}
+.height{
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.desc1{
+    font-size: 18px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+font-weight: 800;
+}
+.object{
+    text-align: center;
+    width: 800px;
+    height: 90px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.skill-container{
+    display: flex;
+    align-items: center; 
+    gap:25px;
+    /* height:200px;  */
+    
+    margin: 100px 400px;
+
+}
+.skill-items{
+    height:300px;
+    background-color: #FFF8F3;
+    border-radius:5px;
+    padding: 30px 30px;
+    box-shadow: 0px 10px 20px 0px black;
+   
+}
+.section-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+  
+    margin: 50px 200px;
+    gap: 30px;
+}
+.experience-desc{
+    font-weight: 600;
+}
+.resume hr{
+    margin: 30px;
+}
+footer{
+    display: flex;
+}
