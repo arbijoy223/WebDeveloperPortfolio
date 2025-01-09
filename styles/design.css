@@ -85,9 +85,10 @@ header{
     font-size: 18px;
 }
 .about-items{
-    display: flex;
-    justify-content: space-evenly;
-}
+     display: flex;
+    justify-content: space-around;
+    margin: 0px ;
+} 
 .title{
 font-weight: 800;
 }
@@ -102,14 +103,14 @@ font-weight: 800;
 .skill-container{
     display: flex;
     align-items: center; 
+    justify-content: space-evenly;
     gap:25px;
-    /* height:200px;  */
-    
-    margin: 100px 400px;
+    margin: 150px;
 
 }
 .skill-items{
-    height:300px;
+    /* height:230px;
+    width: 150px; */
     background-color: #FFF8F3;
     border-radius:5px;
     padding: 30px 30px;
