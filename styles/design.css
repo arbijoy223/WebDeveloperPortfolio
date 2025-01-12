@@ -59,8 +59,11 @@ nav li a{
     margin: 0px 40px 0px 300px;
 }
 .profile{
-width: 584px;
-height: 676px;
+width: 628px;
+height: 500px;
+display: flex;
+background-position: top left;
+border-radius: 10px;
 }
 header{
 
