@@ -65,6 +65,12 @@ display: flex;
 background-position: top left;
 border-radius: 10px;
 }
+.profile img{
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
 header{
 
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
@@ -107,7 +113,8 @@ font-weight: 800;
     display: flex;
     justify-content: space-evenly;
     gap:25px;
-    margin: 150px;
+    margin: 50px 0px;
+    /* margin: 150px; */
 
 }
 .skill-items{
@@ -137,4 +144,41 @@ font-weight: 800;
 }
 .footer-section{
     display: flex;
+    margin: 50px 200px;
+}
+@media screen and (max-width: 576px){
+    .skill-container,.banenr,.resume-container,.footer-section,.about-items,.object,.banner,.profile{
+        flex-direction: column;
+    }
+    .footer-section{
+        margin: auto;
+    }
+    .resume-container{
+        margin: auto;
+    }
+    .banner{
+        flex-direction: column;
+        /* margin: auto; */
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .height{
+        height:50%;
+        width:50%;
+
+    }
+    .object{
+        width: 50%;
+        height: 50%;
+       margin: auto;
+    }
+    .banner{
+        flex-direction: column;
+        margin:0px;
+        padding: 20px;
+    }
+    .profile{
+        display: none;
+    }
 }
