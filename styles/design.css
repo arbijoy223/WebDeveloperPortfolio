@@ -60,15 +60,15 @@ nav li a{
 }
 .profile{
 width: 628px;
-height: 500px;
+height: 550px;
 display: flex;
 background-position: top left;
 border-radius: 10px;
 }
 .profile img{
     margin: auto;
-    height: 300px;
-    width: 400px;
+    height: 80%;
+    width: 70%;
     border-radius: 20px;
 }
 header{
